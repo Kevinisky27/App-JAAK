@@ -8,10 +8,10 @@ de la universidad Mariano Gálvez de Guatemala, con sede en el departamento de J
 > desarrollar, este readme cambiará. 
 
 ## Desarrolladores: 
-1.- Mercedes A. López P.
-2.- Jóse J. Marroquín S.
-3.- Kevin A. Lima R.
-4.- Andrick S. Estrada A.
+- Mercedes A. López P.
+- Jóse J. Marroquín S.
+- Kevin A. Lima R.
+- Andrick S. Estrada A.
 
 ## Licencia
 Está aplicación no puede ser modificada, solamente por los creadores; es decir que nuestra
