@@ -225,6 +225,13 @@ body {
   cursor: pointer; 
   position: relative;
 }
+.box_cont a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
 .box_cont h5 {
   margin-top: 20px;
   text-transform: uppercase;

@@ -4,10 +4,28 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Puntaje final de la sección de preguntas - App Jaak">
   <title>Puntaje final - App Jaak </title>
   <link rel="shortcut icon" href="../../../Favicon/dato.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../../Css/Quiz/quiz_programacion.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div id="end" class="flex-center flex-column">
+      <h1 id="finalScore">0</h1>
+      <form class="end-form-container">
+        <h2 id="end-text">Ingrese su nombre para registrar su puntaje!</h2>
+        <input type="text" name="name" id="username" placeholder="Ingrese su nombre">
+        <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)">Guardar</button>
+      </form>
+      <a href="../Game/game_programacion.html" class="btn">Repetir Quiz<i class="fa-solid fa-left-to-line"></i></a>
+      <a href="../quiz_programacion.html" class="btn">Inicio<i class="fa-solid fa-house-chimney"></i></a>
+    </div>
+  </div>
+
+  <!-- CDN de FontAssom -->
+  <script src="https://kit.fontawesome.com/8d2e9c64a6.js" crossorigin="anonymous"></script>
+  <!-- Funcionalidad de la página -->
+  <script src="../../../JS/Quiz/Game/end.js"></script>
 </body>
 </html>
