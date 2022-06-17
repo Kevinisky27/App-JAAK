@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Puntaje final de la sección de preguntas - App Jaak">
   <title>Puntaje final - App Jaak </title>
-  <link rel="shortcut icon" href="../../../Favicon/dato.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../../../Css/Quiz/quiz_programacion.css">
+  <link rel="shortcut icon" href="../../../Favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../../../Css/styles_game.css">
 </head>
 <body>
   <div class="container">
@@ -15,11 +15,13 @@
       <h1 id="finalScore">0</h1>
       <form class="end-form-container">
         <h2 id="end-text">Ingrese su nombre para registrar su puntaje!</h2>
-        <input type="text" name="name" id="username" placeholder="Ingrese su nombre">
-        <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)">Guardar</button>
+        <input type="text" name="name" id="username" placeholder="Kevin Alexander Lima Recinos">
+        <button class="btn" id="saveScoreBtn" type="submit" onClick="saveHighScore(event)">Guardar Puntaje!</button>
+
+        <button class="btn" type="submit" onclick="repetirQuiz()">Repetir preguntas</button>
+
+        <button class="btn" type="submit" href="../quiz_programacion.html">Regresar al inicio</button>
       </form>
-      <a href="../Game/game_programacion.html" class="btn">Repetir Quiz<i class="fa-solid fa-left-to-line"></i></a>
-      <a href="../quiz_programacion.html" class="btn">Inicio<i class="fa-solid fa-house-chimney"></i></a>
     </div>
   </div>
 

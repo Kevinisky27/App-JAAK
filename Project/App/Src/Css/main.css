@@ -301,7 +301,7 @@ footer {
 .box__footer {
   display: flex;
   flex-direction: column;
-  padding: 40px;
+  padding: 30px;
 }
 .box__footer .logo img {
   width: 50px;
@@ -311,7 +311,7 @@ footer {
   margin-top: 20px;
   font-weight: 500;
   color: #7a7a7a;
-  font-size: 18px;
+  font-size: 15px;
 }
 .box__footer h2 {
   margin-bottom: 30px;

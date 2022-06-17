@@ -29,3 +29,7 @@ saveHighScore = e => {
   localStorage.setItem('highScores', JSON.stringify(highScores))
   window.location.assign('/')
 }
+
+function repetirQuiz() {
+  location.href = "../../../Views/Quiz/Game/game_programacion.html";
+}
