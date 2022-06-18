@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.product {
+  position: absolute;
+  align-items: center;
+  display: flex;
+  height: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.product .image {
+  height: 85%;
+  flex-basis: 40%;
+  width: 280px;
+  box-shadow: -1px 3px 45px 2px rgba(0, 0, 0, 0.26);
+  background: linear-gradient(45deg, #267cbf 5%, #99cf6d 92%);
+  border-radius: 12px 0 0 12px;
+}
+.product .image.hidden {
+  width: 0px;
+  flex-basis: 0%;
+  min-width: 0px;
+}
+.product .image.hidden > img {
+  opacity: 0;
+}
+.product .image img {
+  position: relative;
+  opacity: 1;
+  top: 50%;
+  max-width: 120%;
+  margin-left: -25%;
+  transform: translateY(-50%);
+  filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.4));
+}
+.product .description {
+  position: relative;
+  height: 100%;
+  width: 420px;
+  min-width: 420px;
+  flex-basis: 60%;
+  padding: 30px 25px;
+  box-shadow: -1px 3px 45px 2px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  background: #fff;
+}
+.product .description .color {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 20px 7px 0 0;
+}
+.product .description .color.active:before {
+  display: block;
+  position: relative;
+  top: -4px;
+  left: -4px;
+  width: 31px;
+  height: 31px;
+  content: " ";
+  border-radius: 50%;
+  border: solid 1px #267cbf;
+}
+.product .description .price {
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  font-weight: 200;
+  font-size: 2.3rem;
+}
+.product .description .rating {
+  color: #ffca00;
+  font-size: 1.5rem;
+}
+.product .description .button {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 0;
+  margin: 35px 0;
+  border-radius: 50px;
+  box-shadow: -1px 3px 45px 2px rgba(0, 0, 0, 0.26);
+  background: linear-gradient(45deg, #267cbf 5%, #99cf6d 92%);
+}
+.product .description .button:hover {
+  box-shadow: -1px 8px 45px 0px rgba(0, 0, 0, 0.4);
+}
+.product .description h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 20px 0 7px 0;
+}
+.product .description h2 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 7px 0;
+}
+.product .description p:first-of-type {
+  margin: 35px 0 0 0;
+}
+.product .description p {
+  margin: 7px 0;
+  font-weight: 300;
+}
