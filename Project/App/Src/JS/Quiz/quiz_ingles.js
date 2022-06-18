@@ -12,35 +12,35 @@ let availableQuestions = []
 
 let questions = [
   {
-    question: '¿Qué tipo de formato es para almacenar una fotografía?', 
-    choice1: '.xml',
-    choice2: '.doc',
-    choice3: '.png',
-    choice4: '.mp4',
-    answer: 3
-  }, 
-  {
-    question: '¿Qué programa utilizamos para contabilidad?', 
-    choice1: 'Excel',
-    choice2: 'Word',
-    choice3: 'Filmora',
-    choice4: 'Vegas',
+    question: '¿Qué significa Dog?', 
+    choice1: 'Perro',
+    choice2: 'Gato',
+    choice3: 'Lagarto',
+    choice4: 'iguana',
     answer: 1
   }, 
   {
-    question: '¿Cómo puedo determinar que mi computadora esta lenta?', 
-    choice1: 'se tarda mucho',
-    choice2: 'los programas los corre lento',
-    choice3: 'cuesta que abra las cosas',
-    choice4: 'todas las anteriores',
-    answer: 4
+    question: '¿Cómo se escribe 3 en inglés?', 
+    choice1: 'three',
+    choice2: 'tree',
+    choice3: 'five',
+    choice4: 'six',
+    answer: 1
   }, 
   {
-    question: '¿Qué significa space?', 
-    choice1: 'espacio',
-    choice2: 'borrar',
-    choice3: 'listar',
-    choice4: 'delet',
+    question: '¿Qué significa RED en español?', 
+    choice1: 'violeta',
+    choice2: 'azul',
+    choice3: 'rojo',
+    choice4: 'rosado',
+    answer: 3
+  }, 
+  {
+    question: '¿Cómo se dice helado en inglés?', 
+    choice1: 'ice cream',
+    choice2: 'ice',
+    choice3: 'palet',
+    choice4: 'paleta',
     answer: 1
   }
 ]
