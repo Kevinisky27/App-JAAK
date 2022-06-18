@@ -1,7 +1,7 @@
 const username = document.querySelector('#username')
 const saveScoreBtn = document.querySelector('#saveScoreBtn')
 const finalScore = document.querySelector('#finalScore')
-const mostRecentScore = document.querySelector('#mostRecentScore')
+const mostRecentScore = localStorage.getItem('mostRecentScore')
 
 const highScore = JSON.parse(localStorage.getItem('highScore')) || []
 
@@ -27,9 +27,5 @@ saveHighScore = e => {
 
   highScore.splice(5)
   localStorage.setItem('highScores', JSON.stringify(highScores))
-  window.location.assign('/')
-}
-
-function repetirQuiz() {
-  location.href = "../../../Views/Quiz/Game/game_programacion.html";
+  window.location.assign('')
 }
